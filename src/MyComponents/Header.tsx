@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Moon, Home } from "lucide-react";
+import {  Home } from "lucide-react";
 import windows from "../windows.png";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
