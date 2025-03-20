@@ -13,5 +13,14 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
+    // Ensure proper file extensions and module formats
+    rollupOptions: {
+      output: {
+        format: 'es',
+        entryFileNames: '[name].[hash].js',
+        chunkFileNames: '[name].[hash].js',
+        assetFileNames: '[name].[hash].[ext]'
+      }
+    }
   }
 })
